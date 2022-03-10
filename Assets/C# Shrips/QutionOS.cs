@@ -7,11 +7,14 @@ public class NewBehaviourScript : ScriptableObject
 {
     [TextArea(2, 6)]
     [SerializeField] string qusertion = "Enter new question text here";
-
+    [SerializeField] string[] awoner;
+    [SerializeField] int correct Index;
+    string[] anowers = new string[4];
     public string GetQuestion();
     {
       return Question
     }
+         pubic 
 }  
 
      
