@@ -8,8 +8,12 @@ public class NewBehaviourScript : ScriptableObject
     [TextArea(2, 6)]
     [SerializeField] string qusertion = "Enter new question text here";
 
-    public string GetQuestion ();
+    public string GetQuestion();
+    {
+      return Question
+    }
+}  
 
-
-}
+     
+    
 
