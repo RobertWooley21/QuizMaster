@@ -2,21 +2,62 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "quiz qustion", fileName = "New qustion")]
+[CreateAssetMenu(menuName = "quiz question", fileName = "New question")]
 public class NewBehaviourScript : ScriptableObject
 {
     [TextArea(2, 6)]
     [SerializeField] string qusertion = "Enter new question text here";
-    [SerializeField] string[] awoner;
-    [SerializeField] int correct Index;
+    [SerializeField] string[] Answer
+    [SerializeField] int intorrectAnswerIndex;
     string[] anowers = new string[4];
-    public string GetQuestion();
+    public string GetQuestion()
     {
-      return Question
+        return question;
     }
-         pubic 
-}  
+    public string GetAnswer(int index);
+    {
+}
+  
 
+     
+
+
+        
+
+
+
+
+}
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
      
     
 
