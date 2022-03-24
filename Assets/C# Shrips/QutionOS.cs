@@ -15,7 +15,8 @@ public class NewBehaviourScript : ScriptableObject
         return question;
     }
     public string GetAnswer(int index);
-    {
+     
+     
 }
   
 

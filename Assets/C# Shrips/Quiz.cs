@@ -6,13 +6,14 @@ using System;
 using UnityEngine.UI;
 
 public class Quiz : MonoBehaviour
-{
+{ HeaderAttribute("qustion")
     [SerializeField] TextMeshProUGUI Qistiontext;
-    [SerializeField] qusitonSO qustions;
+    [SerializeField] List<Question>
     [SerializeField] GameObject[] answerBottons;
     // Start is called before the first frame update
     void Start()
-    {
+    {         public 
+        eles if 
         qustions.text = qustions.GetQustion();
 
 
@@ -21,7 +22,11 @@ public class Quiz : MonoBehaviour
         bottentext.text = qustions.GetAnswer(0);
 
 
-}
+
+
+
+        
+}     void display 
 
     private void GetQustion() => throw new NotImplementedException();   
 
@@ -29,7 +34,7 @@ public class Quiz : MonoBehaviour
 
 
 
-
+                         if timer.load the next qustion = fales 
                     {
                      correctAnswerIndex = qusiton.GetcorrsctAnswerIndex;
                       string correctAnswer.text = correctAnwer;
@@ -37,7 +42,11 @@ public class Quiz : MonoBehaviour
                       }
                        setbottenstate 
                     set Defalttyp
-    }
+    }                Timer = Timer 
+
+
+
+
 
 
 
