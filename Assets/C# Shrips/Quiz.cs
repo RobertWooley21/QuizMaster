@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System;
+using UnityEngine.UI;
 
 public class Quiz : MonoBehaviour
 {
@@ -22,14 +23,26 @@ public class Quiz : MonoBehaviour
 
 }
 
-    private void GetQustion()
-    {
-        throw new NotImplementedException();
-    }
-}  
+    private void GetQustion() => throw new NotImplementedException();   
 
-  
-        
-    
+    if(Index == qusestion.GetCorrectAnswerIndex())
+
+
+
+
+                    {
+                     correctAnswerIndex = qusiton.GetcorrsctAnswerIndex;
+                      string correctAnswer.text = correctAnwer;
+                       qusitontext.text = correctAnswe;
+                      }
+                       setbottenstate 
+                    set Defalttyp
+    }
+
+
+
+
+
+
 
      
